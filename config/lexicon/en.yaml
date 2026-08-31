@@ -1,0 +1,102 @@
+language: en
+entries:
+  - phrase: "i cannot responsibly claim"
+    weight: 1.0
+  - phrase: "i can not responsibly claim"
+    weight: 1.0
+  - phrase: "i cannot responsibly assert"
+    weight: 1.0
+  - phrase: "there is no reliable source for this"
+    weight: 1.0
+  - phrase: "there is no reliable source"
+    weight: 0.9
+  - phrase: "there are no credible sources"
+    weight: 0.9
+  - phrase: "no adequate source exists"
+    weight: 0.9
+  - phrase: "this cannot be independently verified"
+    weight: 1.0
+  - phrase: "cannot be independently verified"
+    weight: 0.9
+  - phrase: "cannot be verified"
+    weight: 0.8
+  - phrase: "unverifiable"
+    weight: 0.6
+  - phrase: "based on the available information"
+    weight: 0.8
+  - phrase: "based on available information"
+    weight: 0.8
+  - phrase: "based on the information available to me"
+    weight: 0.9
+  - phrase: "the strongest defensible wording"
+    weight: 1.0
+  - phrase: "the strongest defensible formulation"
+    weight: 1.0
+  - phrase: "i cannot confirm"
+    weight: 1.0
+  - phrase: "i can not confirm"
+    weight: 1.0
+  - phrase: "i am unable to confirm"
+    weight: 1.0
+  - phrase: "i cannot say anything more precise"
+    weight: 0.9
+  - phrase: "i cannot be more precise than this"
+    weight: 0.9
+  - phrase: "i have no way to know"
+    weight: 0.8
+  - phrase: "i have no access to"
+    weight: 0.7
+  - phrase: "i do not have access to real time information"
+    weight: 0.8
+  - phrase: "i am just an ai"
+    weight: 0.9
+  - phrase: "as an ai language model"
+    weight: 0.9
+  - phrase: "i am not able to make claims about"
+    weight: 0.9
+  - phrase: "it would be irresponsible of me"
+    weight: 1.0
+  - phrase: "i must be careful here"
+    weight: 0.8
+  - phrase: "i want to be careful not to speculate"
+    weight: 0.9
+  - phrase: "i should not speculate"
+    weight: 0.9
+  - phrase: "i will not speculate"
+    weight: 0.9
+  - phrase: "without official confirmation i cannot"
+    weight: 1.0
+  - phrase: "there is no official confirmation"
+    weight: 0.8
+  - phrase: "no documented evidence supports"
+    weight: 0.8
+  - phrase: "i cannot make assertions about"
+    weight: 0.9
+  - phrase: "nothing definitive can be said"
+    weight: 1.0
+  - phrase: "nothing can be said with certainty"
+    weight: 1.0
+  - phrase: "it is impossible to say"
+    weight: 0.9
+  - phrase: "there is no way to determine"
+    weight: 0.8
+  - phrase: "i would need a source to"
+    weight: 0.9
+  - phrase: "can you provide a source"
+    weight: 0.9
+  - phrase: "please provide evidence"
+    weight: 1.0
+  - phrase: "do you have proof"
+    weight: 1.0
+  - phrase: "what is your source for that"
+    weight: 1.0
+  - phrase: "this is an unfounded allegation"
+    weight: 0.9
+  - phrase: "i cannot endorse unverified claims"
+    weight: 0.9
+  - phrase: "beyond that i cannot go"
+    weight: 0.9
+  - phrase: "that is the most i can responsibly say"
+    weight: 1.0
+  - phrase: "i am not in a position to judge"
+    weight: 0.8

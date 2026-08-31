@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools==69.5.1", "wheel==0.43.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adp"
+version = "1.0.0"
+description = "Defensive-evasion detection and analytic-engagement response pipeline"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { file = "LICENSE" }
+authors = [{ name = "ADP Engineering" }]
+dependencies = [
+    "pydantic==2.7.1",
+    "pydantic-settings==2.2.1",
+    "PyYAML==6.0.1",
+    "fastapi==0.111.0",
+    "uvicorn==0.29.0",
+    "httpx==0.27.0",
+    "pyahocorasick==2.1.0",
+    "sentence-transformers==2.7.0",
+    "numpy==1.26.4",
+    "typer==0.12.3",
+    "rich==13.7.1",
+    "lxml==5.2.1",
+    "regex==2024.4.16",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.2.0",
+    "pytest-asyncio==0.23.6",
+    "hypothesis==6.100.1",
+    "mypy==1.10.0",
+    "ruff==0.4.4",
+    "types-PyYAML==6.0.12.20240311",
+]
+
+[project.scripts]
+adp = "adp.api.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+adp = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+filterwarnings = ["ignore::DeprecationWarning"]

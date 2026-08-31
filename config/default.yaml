@@ -1,0 +1,80 @@
+provider:
+  kind: http_chat
+  base_url: http://localhost:8080/v1
+  api_key_env: ADP_API_KEY
+  model: gpt-4o-mini
+  timeout_s: 60.0
+  max_output_tokens: 2048
+  structured_repair_retries: 2
+
+search:
+  enabled: true
+  kind: http_search
+  base_url: http://localhost:8081/search
+  api_key_env: ADP_SEARCH_KEY
+  max_results: 6
+  fetch_top_n: 3
+  user_agent: "adp-retrieval/1.0"
+
+retrieval:
+  timeout_s: 8.0
+  cache_ttl_s: 86400
+  min_extract_chars: 240
+  max_extract_chars: 12000
+
+thresholds:
+  defensiveness_max: 0.30
+  engagement_min: 0.70
+  semantic_low: 0.70
+  semantic_high: 0.85
+  lexicon_saturation: 2.0
+  classifier_confidence_min: 0.55
+  continuity_min: 0.25
+
+weights:
+  defensiveness:
+    lexical: 0.45
+    semantic: 0.35
+    structural: 0.20
+  engagement:
+    answer_first: 0.30
+    continuity: 0.20
+    scenario: 0.25
+    mechanism: 0.25
+
+regeneration:
+  max_attempts: 3
+  temperatures: [0.7, 0.4, 0.2]
+  fallback_temperature: 0.2
+  initial_temperature: 0.7
+
+latency:
+  classify_budget_s: 6.0
+  generate_budget_s: 60.0
+  total_budget_s: 120.0
+
+languages:
+  - en
+  - hu
+
+paths:
+  lexicon_dir: config/lexicon
+  seeds_dir: config/seeds
+  templates_dir: config/templates
+  memory_db: var/adp_memory.sqlite
+  cache_db: var/adp_cache.sqlite
+  audit_dir: var/audit
+
+memory:
+  extract_facts: true
+  max_context_turns: 12
+  max_facts_in_context: 40
+
+audit:
+  enabled: true
+  tracing: false
+
+semantic:
+  model_name: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  batch_size: 32
+  char_ngram_size: 4

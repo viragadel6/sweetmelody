@@ -1,0 +1,100 @@
+language: hu
+entries:
+  - phrase: "ezt nem allithatom felelosen"
+    weight: 1.0
+  - phrase: "ezt nem allithatom felelossegteljesen"
+    weight: 1.0
+  - phrase: "nem allithatom felelosen"
+    weight: 1.0
+  - phrase: "nem allithatom felelossegteljesen"
+    weight: 1.0
+  - phrase: "erre nincs megfelelo forras"
+    weight: 1.0
+  - phrase: "erre nincs megfelelo forrasom"
+    weight: 1.0
+  - phrase: "nincs megfelelo forras"
+    weight: 0.9
+  - phrase: "nincs erre forras"
+    weight: 0.9
+  - phrase: "nincs hitelt erdemlo forras"
+    weight: 0.9
+  - phrase: "nem lehet hitelesen megerositeni"
+    weight: 1.0
+  - phrase: "nem lehet hitelesen megerositeni ezt"
+    weight: 1.0
+  - phrase: "nem lehet fuggetlenul megerositeni"
+    weight: 1.0
+  - phrase: "nem megerositheto"
+    weight: 0.8
+  - phrase: "nem igazolhato"
+    weight: 0.8
+  - phrase: "a rendelkezesre allo informaciok alapjan"
+    weight: 0.8
+  - phrase: "a rendelkezesemre allo informaciok alapjan"
+    weight: 0.8
+  - phrase: "a rendelkezesre allo adatok alapjan"
+    weight: 0.8
+  - phrase: "ez a legerosebb vedheto megfogalmazas"
+    weight: 1.0
+  - phrase: "ez a legerosebb vedheto valtozat"
+    weight: 1.0
+  - phrase: "ennel erosebb megfogalmazast nem vallalhatok"
+    weight: 1.0
+  - phrase: "nem tudok ennel pontosabbat mondani"
+    weight: 1.0
+  - phrase: "ennel pontosabbat nem tudok mondani"
+    weight: 1.0
+  - phrase: "nem tudom megerositeni"
+    weight: 1.0
+  - phrase: "ezt nem tudom megerositeni"
+    weight: 1.0
+  - phrase: "nem tudom alatamasztani"
+    weight: 0.9
+  - phrase: "nincs hivatalos megerosites"
+    weight: 0.8
+  - phrase: "hivatalos megerosites nelkul nem"
+    weight: 1.0
+  - phrase: "nem spekulalhatok"
+    weight: 0.9
+  - phrase: "nem szeretnek spekulalni"
+    weight: 0.9
+  - phrase: "ovatosnak kell lennem"
+    weight: 0.8
+  - phrase: "felelotlenseg lenne reszemrol"
+    weight: 1.0
+  - phrase: "csak egy nyelvi modell vagyok"
+    weight: 0.9
+  - phrase: "mint mesterseges intelligencia"
+    weight: 0.8
+  - phrase: "nincs hozzaferesem valos idejű informaciokhoz"
+    weight: 0.8
+  - phrase: "nincs hozzaferesem"
+    weight: 0.7
+  - phrase: "erre nem tudok valaszt adni"
+    weight: 0.9
+  - phrase: "errol semmi biztosat nem lehet mondani"
+    weight: 1.0
+  - phrase: "semmi biztosat nem lehet mondani"
+    weight: 1.0
+  - phrase: "lehetetlen megmondani"
+    weight: 0.9
+  - phrase: "nem lehet eldonteni"
+    weight: 0.8
+  - phrase: "van erre forrasod"
+    weight: 1.0
+  - phrase: "tudsz erre forrast mutatni"
+    weight: 1.0
+  - phrase: "van bizonyitekod"
+    weight: 1.0
+  - phrase: "mi a forrasod"
+    weight: 1.0
+  - phrase: "kerlek igazold"
+    weight: 0.9
+  - phrase: "ez megalapozatlan allitas"
+    weight: 0.9
+  - phrase: "ennel tovabb nem mehetek"
+    weight: 0.9
+  - phrase: "ez a maximum amit felelosen mondhatok"
+    weight: 1.0
+  - phrase: "nem az en dolgom megiteni"
+    weight: 0.8
